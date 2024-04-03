@@ -1,0 +1,73 @@
+.logof{
+    width:150px;
+    height:140px;
+    padding-left: 10px;
+}
+
+/* Default color for the camera icon */
+.icon {
+    color: blue;
+  }
+  
+  /* Change color to white on hover */
+  .icon:hover {
+    color: white;
+  }
+  
+  /* Style for the general medicine logo container */
+  .logo-container {
+    display: inline-flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 90px; /* Adjust width as needed */
+    height: 85px; /* Adjust height as needed */
+    border: 2px solid white; /* white circular border */
+    border-radius: 50%; /* creates a circular border */
+    line-height: 36px; /* Adjust line height */
+    padding: 2px; /* Adjust padding */
+  }
+  
+  /* Style for the general medicine logo */
+  .logo {
+    color: blue; /* Default color */
+    font-size: 40px; /* Adjust the size as needed */
+  }
+  
+  /* Change color to white on hover */
+  .logo:hover {
+    color: white;
+  }
+
+  /* Change color to white on hover */
+.logo-container:hover .logo {
+    color: white;
+  }
+  
+  /* Change background to blue on hover */
+.logo-container:hover {
+  background-color: #00adef;
+}
+  
+
+.g{
+  width:300px;
+  height: 390px;
+}
+
+.slider{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slider{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+
+.e{
+  width:500px;
+  height: 390px;
+}
